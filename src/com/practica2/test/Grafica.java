@@ -49,7 +49,7 @@ public class Grafica {
 			generarGrafica();
 			byte[] file = getFile( );
 			//PrintWriter out = response.getWriter( ) <- Abrir canal de comunicacion con cliente en modo texto
-			//OutputStream os = response.getOutputStream();//<- abrir canal de comunicacion con cliente en modo bytes
+			OutputStream os = response.getOutputStream();//<- abrir canal de comunicacion con cliente en modo bytes
 			
 			//response.setContentType("image/png");
 			os.write(file);
