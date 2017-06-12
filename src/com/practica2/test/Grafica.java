@@ -33,7 +33,7 @@ public class Grafica {
 				}
 			return pie;
 		}
-		
+		//Cheacar 
 		private void generarGrafica( ) {
 			JFreeChart chart = ChartFactory.createPieChart3D("Alumnos por Carrera", getGraficaAlumnos() );
 			
