@@ -27,5 +27,9 @@
 	<classpathentry kind="lib" path="build/lib/mysql-connector-java-5.1.34-bin.jar"/>
 	<classpathentry kind="lib" path="build/lib/slf4j-api-1.7.25.jar"/>
 	<classpathentry kind="lib" path="build/lib/slf4j-simple-1.7.25.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jasperreports-6.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/pma/Documents/Distribuidos_Documents/javax.mail.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

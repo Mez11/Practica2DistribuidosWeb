@@ -2,6 +2,8 @@ package com.practica2.test;
 
 import java.util.List;
 
+import javax.mail.MessagingException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -109,7 +111,18 @@ public class Prueba {
 		}
 		logger.debug( "END" );
 		System.exit( 0 );
+		//Envío de correos
+		MailSender mail = new MailSender();
+		try {
+			mail.sendEmail("meztli.swim@gmail.com", "te envio un helado", "Hola Mez");
+		} catch (MessagingException e) {
+			// TODO Auto-generated catch block
+			//e.printStackTrace();
+			logger.error("Error cunado tratas de enviar un correo",e);
+		}
 		
-	} 
+		
+		
+	} //end mail
 	
-}
+}//end class

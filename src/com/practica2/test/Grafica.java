@@ -44,7 +44,7 @@ public class Grafica {
 			}
 		}
 
-		//protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 			//"main"
 			generarGrafica();
 			byte[] file = getFile( );
@@ -66,7 +66,7 @@ public class Grafica {
 			return buffer;
 			
 		}
-	}///fin clase
+	}///fin clase */
 
 
 
